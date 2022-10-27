@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "6365a485-1944-4c50-83f4-e70a16caef30",
+    "colName": "Default Collection",
+    "created": "2022-10-27T03:37:35.592Z",
+    "sortNum": 10000,
+    "folders": [],
+    "settings": {
+      "headers": [],
+      "tests": [],
+      "options": {
+        "baseUrl": "http://localhost:8080"
+      }
+    }
+  }
+]
