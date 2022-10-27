@@ -42,13 +42,44 @@
     "colId": "6365a485-1944-4c50-83f4-e70a16caef30",
     "containerId": "",
     "name": "Update",
-    "url": "/delete",
-    "method": "DELETE",
+    "url": "/update?user=test",
+    "method": "PUT",
     "sortNum": 30000,
     "created": "2022-10-27T04:20:26.185Z",
-    "modified": "2022-10-27T04:27:22.760Z",
+    "modified": "2022-10-27T04:31:03.430Z",
     "headers": [],
-    "params": [],
+    "params": [
+      {
+        "name": "user",
+        "value": "test",
+        "isPath": false
+      }
+    ],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"testnew\",\n  \"password\": \"testnew\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "9557bd44-6dd6-4971-8898-1e9c97e7a660",
+    "colId": "6365a485-1944-4c50-83f4-e70a16caef30",
+    "containerId": "",
+    "name": "Delete",
+    "url": "/delete?user=testnew",
+    "method": "DELETE",
+    "sortNum": 40000,
+    "created": "2022-10-27T04:30:48.875Z",
+    "modified": "2022-10-27T04:30:59.862Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "user",
+        "value": "testnew",
+        "isPath": false
+      }
+    ],
     "body": {
       "type": "json",
       "raw": "{\n  \"username\": \"test\",\n  \"password\": \"test\"\n}",
